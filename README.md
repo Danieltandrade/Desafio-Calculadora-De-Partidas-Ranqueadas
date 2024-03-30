@@ -8,8 +8,8 @@ Instrutor: Felipão [DIO.me](https://www.dio.me/)
 
 ### Entradas e Lógica
 
-Neste desafio irei criar uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador, depois disso retorna o resultado para uma variável, com o saldo de Rankeadas sendo feito através do calculo (vitórias - derrotas).
-O Ranking será exibido conforme lista abaixo:
+Neste desafio irei criar uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador, depois disso retorna o resultado para uma variável, com o saldo do __Ranking__ sendo feito através do calculo (vitórias - derrotas).
+O __Ranking__ será exibido conforme lista abaixo:
 
 - Se vitórias for menor do que 10 = Ferro
 - Se vitórias for entre 11 e 20 = Bronze
