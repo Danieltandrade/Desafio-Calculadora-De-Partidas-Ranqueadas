@@ -6,6 +6,8 @@ Instrutor: Felipão [DIO.me](https://www.dio.me/)
 
 ## Desafio
 
+### Entradas e Lógica
+
 Neste desafio irei criar uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador, depois disso retorna o resultado para uma variável, com o saldo de Rankeadas sendo feito através do calculo (vitórias - derrotas).
 O Ranking será exibido conforme lista abaixo:
 
@@ -17,7 +19,7 @@ O Ranking será exibido conforme lista abaixo:
 - Se vitórias for entre 91 e 100= Lendário
 - Se vitórias for maior ou igual a 101 = Imortal
 
-## Saída
+### Saída
 
 Ao final deve se exibir uma mensagem:
 "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
@@ -84,7 +86,7 @@ console.log("O Herói tem um saldo de " + saldoVitorias + " vitórias e está no
 
 ## Testando Código
 
-Neste teste verifiquei se a lógica está correta e para isso, escrevi nas variáveis __"numVitorias"__ e __"numDerrotas"__ 4 valores diferentes, listados abaixo e acompanhando no terminal do __VS Code__ cada resultado testado, com o código funcionando corretamente, conforme imagem também abaixo:
+Neste teste verifiquei se a lógica estava correta e para isso, escrevi nas variáveis __"numVitorias"__ e __"numDerrotas"__ 4 valores diferentes listados abaixo e acompanhando no terminal do __VS Code__ cada resultado testado. O código está funcionando corretamente, conforme imagem também abaixo:
 
 - Vitórias = 30; Derrotas = 17
 - Vitórias = 50; Derrotas = 00
