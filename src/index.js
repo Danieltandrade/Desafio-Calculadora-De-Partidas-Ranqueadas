@@ -1,9 +1,12 @@
 //Desafio de projeto, curso Lógica de Programação.
 //Calculadora de partidas Ranqueadas.
 
-/*Neste deafio irei criar uma função que recebe como parâmetro a quantidade de vitórias 
-e derrotas de um jogador, depois disso retorna o resultado para uma variável, 
-com o saldo de Rankeadas sendo feito através do calculo (vitórias - derrotas).
+/*
+## Entradas e Lógica
+
+Neste desafio irei criar uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador, 
+depois disso retorna o resultado para uma variável, com o saldo de Rankeadas sendo feito 
+através do calculo (vitórias - derrotas).
 O Ranking será exibido conforme lista abaixo:
 
 Se vitórias for menor do que 10 = Ferro
@@ -22,8 +25,8 @@ Ao final deve se exibir uma mensagem:
 
 //Iniciando código declarando variáveis
 let nivel = ""  //Variável do tipo String, iniciando com "vazio"
-let numVitorias = 90  //Variável do tipo Number com o número de vitórias do herói
-let numDerrotas = 10  //Variável do tipo Number com o número de derrotas do herói
+let numVitorias = 129  //Variável do tipo Number com o número de vitórias do herói
+let numDerrotas = 26   //Variável do tipo Number com o número de derrotas do herói
 let saldoVitorias = calculandoSaldo(numVitorias , numDerrotas)  /*Variável do tipo Number, recebendo o 
 return da função "calculandoSaldo"*/
 
@@ -48,7 +51,7 @@ if(saldoVitorias <= 10){      //Se vitórias for menor do que 10 = Ferro
 console.log("O Herói tem um saldo de " + saldoVitorias + " vitórias e está no nível de " + nivel + ".")
 
 function calculandoSaldo (qtdVitorias , qtdDerrotas){ //Função para cálculo de saldo entre vitórias - derrotas
-    let saldo = qtdVitorias - qtdDerrotas  //Variável dentro da função para calcular o saldo
+    let resultado = qtdVitorias - qtdDerrotas  //Variável dentro da função para calcular o saldo
 
-    return saldo  //Retorno da função após cálculo realizado
+    return resultado  //Retorno da função após cálculo realizado
 }
